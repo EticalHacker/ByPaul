@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Sorpresa Arcoíris</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Carta cerrada -->
+        <div class="envelope" id="envelope">
+            <div class="envelope-front">
+                <div class="rainbow-border"></div>
+                <h2>¡Haz clic para abrir pendeja!</h2>
+                <div class="sparkles"></div>
+            </div>
+        </div>
+
+        <!-- Contenido de la carta -->
+        <div class="card-content" id="cardContent">
+            <div class="close-btn" id="closeBtn">×</div>
+            
+            <!-- Mensaje motivador -->
+            <div class="motivational-message">
+                <h1 class="rainbow-text">¡You're Important.!</h1>
+                <p class="message-text">
+                Se que andas perdida por tu relacion sentimental pero
+                 debes de saber que no estas sola alv y yo estoy aqui para escucharte siempre sin juzgarte pq la neta yo soy peor XD
+                 siempre para ayudarte en lo que pueda
+
+            <!-- Reproductor de música -->
+            <div class="music-player">
+                <div class="player-header">
+                    <div class="song-info">
+                        <h3>Lover Days</h3>
+                        <p>Cuco</p>
+                        <span class="duration">7:35</span>
+                    </div>
+                    <div class="album-art">
+                        <div class="vinyl-record"></div>
+                    </div>
+                </div>
+                
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                    <div class="time-display">
+                        <span id="currentTime">0:00</span>
+                        <span>7:35</span>
+                    </div>
+                </div>
+                
+                <div class="controls">
+                    <button class="control-btn" id="prevBtn">⏮</button>
+                    <button class="control-btn play-btn" id="playBtn">▶</button>
+                    <button class="control-btn" id="nextBtn">⏭</button>
+                </div>
+                <audio id="audioPlayer" preload="auto">
+                  <source src="audio/CUCO - Lover Is a Day (Audio).mp3" type="audio/mpeg">
+                  Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+
+            <!-- Letra de la canción -->
+            <div class="lyrics-container">
+                <h4>Letra</h4>
+                <div class="lyrics" id="lyrics">
+                    <p class="lyric-line" data-time="42">
+                        <span class="highlight-red">Time changed</span>, <span class="highlight-red">we're different</span>
+                    </p>
+                    <p class="lyric-line" data-time="46">
+                        But my mind still says redundant things
+                    </p>
+                    <p class="lyric-line" data-time="49">
+                        Can I not think?
+                    </p>
+                    <p class="lyric-line" data-time="51.5">
+                        Will you love this part of me?
+                    </p>
+                    <p class="lyric-line" data-time="55">
+                        My lover is a day I can't forget
+                    </p>
+                    <p class="lyric-line" data-time="64">
+                        Furthering my distance from you
+                    </p>
+                    <p class="lyric-line" data-time="67">
+                        Realistically I can't leave now
+                    </p>    
+                    <p class="lyric-line" data-time="71">
+                        But I'm okay as long as you
+                    </p>
+                    <p class="lyric-line" data-time="74">
+                        Keep me from going crazy
+                    </p>
+                    <p class="lyric-line" data-time="80">
+                        Keep me from going crazy
+                    </p>
+                    <p class="lyric-line" data-time="85">
+                        Straight up ahead you'll find a sign
+                    </p>
+                    <p class="lyric-line" data-time="90">
+                        That says you can't get by with a lie
+                    </p>
+                    <p class="lyric-line" data-time="95">
+                        But if I stayed away by a thread from the glory path
+                    </p>
+                    <p class="lyric-line" data-time="101">
+                        And made my life harder, lying 'bout the stupid shit I say
+                    </p>
+                    <p class="lyric-line" data-time="106">
+                        Then you wouldn't know a single thing about
+                    </p>
+                    <p class="lyric-line" data-time="111">
+                        How I feel about you
+                    </p>
+                    <p class="lyric-line" data-time="114">
+                        And those really dumb things people feel
+                    </p>
+                    <p class="lyric-line" data-time="117">
+                        I'll take the bumpy road, it'll probably break my legs
+                    </p>
+                    <p class="lyric-line" data-time="122">
+                        As long as I don't show you what's ruining my head
+                    </p>
+                    <p class="lyric-line" data-time="127.5">
+                        Funny thing about you is you read me pretty well
+                    </p>
+                    <p class="lyric-line" data-time="132">
+                        But you haven't found me yet at the bottom of the well
+                    </p>
+                    <p class="lyric-line" data-time="138">
+                        Annoying you with smoke signals, asking you for help
+                    </p>
+                    <p class="lyric-line" data-time="143">
+                        'Cause your immediate presence lifts me straight away from hell
+                    </p>
+                    <p class="lyric-line" data-time="149">
+                        Me and Mr. Heart, we say the cutest things about you
+                    </p>
+                    <p class="lyric-line" data-time="154">
+                        How you seem unreal and we'd probably die so quick without you
+                    </p>
+                    <p class="lyric-line" data-time="160">
+                        Suffocated from the radiated air around us
+                    </p>
+                    <p class="lyric-line" data-time="164">
+                        Full of happiness we don't have
+                    </p>
+                    <p class="lyric-line" data-time="167">
+                        Brightness gone, so dark without you, girl
+                    </p>
+                    <p class="lyric-line" data-time="170">
+                        <span class="highlight-red">Time changed</span>, <span class="highlight-red">we're different</span>
+                    </p>
+                    <p class="lyric-line" data-time="174">
+                        But my mind still says redundant things
+                    </p>
+                    <p class="lyric-line" data-time="177">
+                        Can I not think?
+                    </p>
+                    <p class="lyric-line" data-time="180">
+                        Will you love this part of me?
+                    </p>
+                    <p class="lyric-line" data-time="183">
+                        My lover is a day I can't forget
+                    </p>
+                    <p class="lyric-line" data-time="193">
+                        Furthering my distance from you
+                    </p>
+                    <p class="lyric-line" data-time="195">
+                        Realistically I can't leave now
+                    </p>
+                    <p class="lyric-line" data-time="199">
+                        But I'm okay as long as you
+                    </p>
+                    <p class="lyric-line" data-time="202">
+                        Keep me from going crazy
+                    </p>
+                    <p class="lyric-line" data-time="208">
+                        Keep me from going crazy
+                    </p>
+                    <p class="lyric-line" data-time="213">
+                        Family calls me crazy and my friends say I'm degenerate
+                    </p>
+                    <p class="lyric-line" data-time="218">
+                        But you tell me I'm so generous and my self-worth isn't hideous
+                    </p>
+                    <p class="lyric-line" data-time="223">
+                        This psychedelic canvas or the person I'm becoming
+                    </p>
+                    <p class="lyric-line" data-time="228.5">
+                        Went from horror movie on TV to happy ending princess me
+                    </p>
+                    <p class="lyric-line" data-time="234">
+                        Processing the information, transferred from your mind to me
+                    </p>
+                    <p class="lyric-line" data-time="240">
+                        At light speed, like the Falcon from the original Star Wars trilogy
+                    </p>
+                    <p class="lyric-line" data-time="245">
+                        Feeling like a free ol' me, when I was six and no worries
+                    </p>
+                    <p class="lyric-line" data-time="250">
+                        Would stop me from reaching the stars, a million miles away from me
+                    </p>
+                    <p class="lyric-line" data-time="256">
+                        Sick in the head for you and no cure has been discovered
+                    </p>
+                    <p class="lyric-line" data-time="261">
+                        Like a plague hitting my body
+                    </p>
+                    <p class="lyric-line" data-time="263">
+                        Except if I fall I'm just fallin' for you
+                    </p>
+                    <p class="lyric-line" data-time="266">
+                        Conscious beyond knowledge alterations are acknowledged
+                    </p>
+                    <p class="lyric-line" data-time="271">
+                        And the beauty you've inflicted is always in its action
+                    </p>
+                    <p class="lyric-line" data-time="277">
+                        Lovely day today, perfect time to open up to you
+                    </p>
+                    <p class="lyric-line" data-time="282">
+                        But I know that you're having fun, wouldn't wanna mess this up for you
+                    </p>
+                    <p class="lyric-line" data-time="288">
+                        But I'm happy that you're happy, at least I do that much for you
+                    </p>
+                    <p class="lyric-line" data-time="293">
+                        Always glad you're with me
+                    </p>
+                    <p class="lyric-line" data-time="295">
+                        This emotion will be gone before you know
+                    </p>
+                    <p class="lyric-line" data-time="298.5">
+                        <span class="highlight-red">Time changed</span>, <span class="highlight-red">we're different</span>
+                    </p>
+                    <p class="lyric-line" data-time="302">
+                        But my mind still says redundant things
+                    </p>
+                    <p class="lyric-line" data-time="305">
+                        Can I not think?
+                    </p>
+                    <p class="lyric-line" data-time="308">
+                        Will you love this part of me?
+                    </p>
+                    <p class="lyric-line" data-time="311">
+                        My lover is a day I can't forget
+                    </p>
+                    <p class="lyric-line" data-time="319.5">
+                        Furthering my distance from you
+                    </p>
+                    <p class="lyric-line" data-time="324">
+                        Realistically I can't leave now
+                    </p>
+                    <p class="lyric-line" data-time="327">
+                        But I'm okay as long as you
+                    </p>
+                    <p class="lyric-line" data-time="331">
+                        Keep me from going crazy
+                    </p>
+                    <p class="lyric-line" data-time="335.5">
+                        Keep me from going crazy, girl
+                    </p>
+                    <p class="lyric-line" data-time="341">
+                        <span class="highlight-red">Time changed</span>, <span class="highlight-red">we're different</span>
+                    </p>
+                    <p class="lyric-line" data-time="344">
+                        But my mind still says redundant things
+                    </p>
+                    <p class="lyric-line" data-time="348">
+                        Can I not think?
+                    </p>
+                    <p class="lyric-line" data-time="350">
+                        Will you love this part of me?
+                    </p>
+                    <p class="lyric-line" data-time="353">
+                        My lover is a day I can't forget
+                    </p>
+                    <p class="lyric-line" data-time="362">
+                        Furthering my distance from you
+                    </p>
+                    <p class="lyric-line" data-time="366">
+                        Realistically I can't leave now
+                    </p>
+                    <p class="lyric-line" data-time="370">
+                        But I'm okay as long as you
+                    </p>
+                    <p class="lyric-line" data-time="373">
+                        Keep me from going crazy
+                    </p>
+                    <p class="lyric-line" data-time="378">
+                        Keep me from going crazy
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
